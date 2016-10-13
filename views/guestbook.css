@@ -1,0 +1,8 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+h1{
+	color:black;
+	
+}
+body { font: 1.8em Times New Roman, Times; }
+
+footer { margin: 5; padding: 5; background: yellow; position: fixed; bottom: 0; width: 100%;}
