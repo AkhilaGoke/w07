@@ -10,6 +10,7 @@ var server = require('http').createServer(app);
 // set up the view engine
 app.set("views", path.resolve(__dirname, "views")); // path to views
 app.set("view engine", "ejs"); // specify our view engine
+app.use(express.static(__dirname+'/views'));
 //app.set('view engine','ejs');
 
 // manage our entries
